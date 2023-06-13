@@ -22,7 +22,7 @@ suma =False *20
 ## operaciones con STRING
 # combinación de cadenas (concatenación)
 letras="hola "+"a todos"
-print=(letras)
+print=(letras)"
 ## repetir cadenas 
 cadena="hola"*5
 print(cadena)
@@ -57,3 +57,21 @@ pertenencia='hola' in 'hola mundo'
 print(pertenencia)
 con='a'< 'A' ## CODIGO ASCII
 
+
+## conversiones STRING NUMEROS
+numero="10"
+numeroConvertido=int(numero)
+
+flotanteString='10'
+floteanteNumero=float(flotanteString)
+
+numeroEntero=20
+numeroString=str(numeroEntero)
+
+print(type(numeroEntero))
+print(type(numeroString))
+
+## controles de flujo
+# blosques
+# cuando nosotros utilicemos cualquier control de flujo o funciones
+#el codigo que se debe ejecutar despues 
